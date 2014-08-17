@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    mini_portile (0.6.0)
+    multi_json (1.10.1)
+    multi_xml (0.5.5)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    pinboard (0.1.1)
+      httparty (= 0.11.0)
+    progressbar (0.21.0)
+    viddl-rb (1.0.4)
+      multi_json (~> 1.10.0)
+      nokogiri (~> 1.6.0)
+      progressbar (~> 0.21)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pinboard
+  viddl-rb
