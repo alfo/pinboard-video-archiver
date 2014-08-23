@@ -27,4 +27,4 @@ You can run it manually if you want:
 
 Or with a cron job every day at exactly 03:53 by running `crontab -e` and adding
 
-    53 3 * * * ruby /path/to/archiver.rb >/dev/null 2>&1
+    53 3 * * * /bin/bash -l -c 'cd /path/to/pinboard-video-archiver && bundle exec ruby archiver.rb >> pinboard.log 2>&1'
